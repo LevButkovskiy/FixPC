@@ -1,0 +1,109 @@
+html {
+  background: #EEEEEE;
+
+  user-select: none;
+}
+
+.navBar {
+    background: #212121;
+    color: white;
+
+    padding: 20px;
+    height: 25px;
+}
+
+.navBar .title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navBar .phone {
+  position: fixed;
+  right: 20px;
+  top: 25px;
+}
+
+.menu {
+  position: absolute;
+  top: calc(25px + 40px);
+
+  background: #757575;
+
+  height: calc(100vh - 25px - 40px);
+  width: 250px;
+}
+
+.menuContent {
+  padding: 10px 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.menuUser {
+  position: absolute;
+  bottom: 15px;
+}
+
+.menuElement {
+  margin: 8px 0px;
+  padding: 6px 12px;
+
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.menuUser .menuElement {
+  background-color: #388E3C;
+  color: white;
+
+  border-radius: 4px;
+
+  margin: 12px 0px;
+}
+
+.menuUser .menuElement:hover {
+  background-color: #66BB6A;
+  color: white;
+
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.content .title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.content .contentBody {
+  padding: 10px;
+}
+
+.catalogEl {
+  width: 33%;
+  height: 33vh;
+
+  margin: 20px;
+
+  background: #757575;
+
+  overflow: hidden;
+}
+
+.catalogEl .title {
+  font-size: 18px;
+
+  padding: 8px;
+}
